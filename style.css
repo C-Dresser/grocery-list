@@ -1,0 +1,54 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  background-color: #3454bd;
+  color: white;
+}
+
+.workspace-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 6vh;
+  background-color: white;
+  color: #afafaf;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 78vh;
+    background-color: white;
+}
+
+.thirds-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 72vh;
+    width: 33%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #654999;
+    color: white;
+}
+
+.ads-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 6vh;
+    margin: 10px;
+    padding: 10px;
+    border: black 2px solid;
+    background-color: #654999;
+    color: white;
+}
