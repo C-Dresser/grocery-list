@@ -1,10 +1,11 @@
-.flex-container {
+.head-container {
+  position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 6vh;
   background-color: #3454bd;
   color: white;
+  justify-content: center;
+  align-items: center; /* Ensure items are vertically centered */
 }
 
 .workspace-container {
@@ -53,4 +54,20 @@
     border: black 2px solid;
     background-color: #654999;
     color: white;
+}
+
+.head-title {
+  position: absolute;
+  align-self: center;
+  flex-grow: 1; /* Allows the title to take up remaining space */
+  text-align: center; /* Center text within the container */
+}
+
+.home-btn {
+  justify-content: flex-end;
+  margin-left: auto; /* Push the button to the right */
+  margin-right: 10px; /* Add some space between the button and the edge */
+  background-color: transparent;
+  border: none; /* Remove default button styling */
+  padding: 5px; /* Adjust padding as needed */
 }
