@@ -1,4 +1,4 @@
-INSERT INTO meals (id, meal_name)
+INSERT INTO meals (id, meal_name, difficulty)
 VALUES (1, "Teriyaki Chicken Hibachi", 3)
 , (2, "Ramen", 1)
 , (3, "BBQ Chicken Sandwiches", 1)
